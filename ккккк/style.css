@@ -75,6 +75,8 @@ footer{
    text-align: left;
    }
 .footer a {
+  
+
   color:#328972 ;
   text-decoration: none;
 }   
@@ -85,8 +87,19 @@ footer{
 .footer li.active {
   color: #328972;
 }
+ a:visited {
+    color: #328972;
+}
+a{
+  text-decoration: none;
 
-
+}
+a:hover {
+  color:#e9eaeb;
+}
+li{
+  list-style-type: none;
+}
 blockquote {
 	margin: 0;
 	background: #e9eaeb;
